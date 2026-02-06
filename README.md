@@ -17,6 +17,7 @@ Aplicación web interactiva desarrollada con React que permite explorar un lista
 - Filtrado, búsqueda y ordenación en tiempo real
 - Vista de detalle de food trucks y hamburguesas
 - Diseño responsive
+- Optimización y rendimiento: imágenes en formato WebP, CSS minificado, carga diferida (lazy loading)
 
 ## Puesta en marcha del proyecto
 ```bash

@@ -76,7 +76,7 @@ export default function BurgerDetail() {
           <div className="detail-divider" />
 
           <div className="detail-footer-actions">
-            <button className="order-btn">Add to cart</button>
+            <button aria-label="Add to cart" className="order-btn">Add to cart</button>
           </div>
         </div>
       </section>

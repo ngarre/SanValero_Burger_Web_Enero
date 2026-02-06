@@ -42,7 +42,7 @@ export default function FoodTruckCard({ foodTruck }: Props) {
         <span>📧 {email}</span>
       </div>
 
-      <button onClick={goToDetail}>
+      <button aria-label="View food truck profile" onClick={goToDetail}>
         View profile
       </button>
     </article>
