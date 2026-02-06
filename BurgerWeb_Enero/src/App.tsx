@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 // Componentes globales
-import {Header} from './components/Header';
+import {Header} from './components/Header.tsx';
 import {Footer} from './components/Footer';
 
 // Páginas (Asegúrate de que estas rutas de archivo sean correctas)
