@@ -27,7 +27,7 @@ export default function Home() {
       {/* HERO */}
       <section className="hero">
         <h1>Choose the San Valero Burger champion</h1>
-        <img src={heroImage} alt="Food trucks en acción" />
+        <img src={heroImage} alt="Food trucks en acción" loading="lazy"/>
         <p>
           Discover the FoodTrucks competing for the throne this year.
           Vote, enjoy and savor 🔥🍔

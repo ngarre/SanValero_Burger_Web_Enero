@@ -38,7 +38,7 @@ export const BurgerCard = ({ burger }: Props) => {
   return (
     <div className="burger-card">
       <div className="burger-image">
-        <img src={imageUrl} alt={burger.nombre} onError={handleImageError} />
+        <img src={imageUrl} alt={burger.nombre} onError={handleImageError} loading="lazy" />
         {burger.opcionVegana && (
           <span className="vegan-badge">🌱 Vegan</span>
         )}

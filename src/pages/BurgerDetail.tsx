@@ -52,8 +52,9 @@ export default function BurgerDetail() {
         <div className="detail-image-wrapper">
           <img 
             src={finalImageUrl} 
-            alt={burger.nombre} 
+            alt={burger.nombre}
             onError={handleImageError} // Si el link de la API se rompe, salta aquí
+            loading="lazy"
           />
           {burger.opcionVegana && <span className="vegan-tag">🌱 Vegan</span>}
         </div>
