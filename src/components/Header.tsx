@@ -1,5 +1,5 @@
 import { Navbar } from "./Navbar";
-import logo from "../assets/images/Logo-nobackground.png";
+import logo from "../assets/images/Logo-nobackground.webp";
 import "./Header.css";
 
 export function Header() {

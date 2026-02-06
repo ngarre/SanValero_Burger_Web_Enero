@@ -3,7 +3,7 @@ import { fetchAPI } from "../utils/api";
 import type { FoodTruck } from "../types/FoodTruck";
 import FoodTruckCard from "../components/FoodTruckCard";
 import "./Home.css";
-import heroImage from "../assets/images/lugar.jpg";
+import heroImage from "../assets/images/lugar.webp";
 
 export default function Home() {
   const [foodTrucks, setFoodTrucks] = useState<FoodTruck[]>([]);

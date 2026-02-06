@@ -3,7 +3,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { fetchAPI } from "../utils/api";
 import type { Burger } from "../types/Burger";
 // Tu import del placeholder
-import PlaceholderImage from '../assets/images/placeholder-burger.jpg'; 
+import PlaceholderImage from '../assets/images/placeholder-burger.webp'; 
 import "./BurgerDetail.css";
 
 const API_URL_BASE = 'http://localhost:8080';

@@ -4,7 +4,7 @@ import type { Burger } from "../types/Burger";
 import { BurgerCard } from "../components/BurgerCard";
 import FilterBar, { type FilterState } from "../components/FilterBar";
 import "./Burgers.css";
-import heroImage from "../assets/images/todos.jpg";
+import heroImage from "../assets/images/todos.webp";
 
 export default function Burgers() {
   const [burgers, setBurgers] = useState<Burger[]>([]);
