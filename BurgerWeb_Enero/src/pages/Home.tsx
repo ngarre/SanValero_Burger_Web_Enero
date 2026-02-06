@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { fetchAPI } from "../utils/api.ts";
 import type { FoodTruck } from "../types/FoodTruck.ts";
-import FoodTruckCard from "../components/FoodTruckCard.ts";
+import FoodTruckCard from "../components/FoodTruckCard.tsx";
 import "./Home.css";
 import heroImage from "../assets/images/lugar.jpg";
 

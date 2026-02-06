@@ -1,0 +1,1 @@
+export default function Burgers() { return (<div>TODO</div>)}
