@@ -16,12 +16,14 @@ function App() {
       <div className="app-layout">
         <Header />
         
+        <main className="main-content">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/burgers" element={<Burgers />} />
           <Route path="burgers/:id" element={<BurgerDetail />} />
           <Route path="/foodtrucks/:id" element={<FoodTruckDetail />} />
         </Routes>
+        </main>
 
         <Footer />
       </div>

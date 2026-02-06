@@ -23,7 +23,7 @@ export default function Home() {
   if (error) return <div className="error-msg">{error}</div>;
 
   return (
-    <main className="home-container">
+    <main className="home-container main-content">
       {/* HERO */}
       <section className="hero">
         <h1>Choose the San Valero Burger champion</h1>
