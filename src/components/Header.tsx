@@ -15,7 +15,7 @@ export function Header() {
         </div>
 
         <div className="header-right">
-          <button className="order-btn">Place your order</button>
+          <button aria-label="Place your order" className="order-btn">Place your order</button>
         </div>
       </div>
     </header>

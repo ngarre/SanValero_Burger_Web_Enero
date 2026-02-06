@@ -41,7 +41,7 @@ export default function FoodTruckDetail() {
 
   return (
   <main className="foodtruck-detail">
-    <button className="back-btn" onClick={() => navigate(-1)}>
+    <button aria-label="Get Back" className="back-btn" onClick={() => navigate(-1)}>
       ← Back
     </button>
 

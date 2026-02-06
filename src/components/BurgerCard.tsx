@@ -54,7 +54,7 @@ export const BurgerCard = ({ burger }: Props) => {
         </div>
 
         {/* 4. Cambiamos la acción del botón */}
-        <button className="btn-detail" onClick={goToDetail}>
+        <button aria-label="More burger details" className="btn-detail" onClick={goToDetail}>
           View Details
         </button>
       </div>
