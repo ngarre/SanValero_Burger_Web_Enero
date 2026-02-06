@@ -1,0 +1,1 @@
+export default function FoodTruckDetail() { return (<div>TODO</div>)}
