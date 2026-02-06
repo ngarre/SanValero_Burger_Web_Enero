@@ -1,4 +1,4 @@
-import { Navbar } from "./Navbar.tsx";
+import { Navbar } from "./Navbar";
 import logo from "../assets/images/Logo-nobackground.png";
 import "./Header.css";
 

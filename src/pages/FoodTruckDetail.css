@@ -1,0 +1,118 @@
+.foodtruck-detail {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2rem 1rem 4rem;
+}
+
+.back-btn {
+  background: none;
+  border: none;
+  color: #643337;
+  font-weight: bold;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-bottom: 1.5rem;
+}
+
+.back-btn:hover {
+  text-decoration: underline;
+}
+
+/* CARD */
+.detail-card {
+  background: linear-gradient(180deg, #1e1e1e, #141414);
+  border-radius: 20px;
+  padding: 2.5rem;
+  border: 1px solid #2c2c2c;
+}
+
+/* HEADER */
+.detail-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.detail-header h1 {
+  color: #fff;
+  margin: 0;
+}
+
+/* BADGE */
+.detail-badge {
+  font-size:1rem;
+  font-weight: bold;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  white-space: nowrap;
+}
+
+.detail-badge.delivery {
+  background: #ffc107;
+  color: #000;
+}
+
+.detail-badge.local {
+  background: #555;
+  color: #fff;
+}
+
+/* RATING */
+.detail-rating {
+  color: #ffc107;
+  margin-bottom: 1.5rem;
+}
+
+/* TEXT */
+.detail-description {
+  color: #bbb;
+  line-height: 1.6;
+  margin-bottom: 2rem;
+}
+
+/* DIVIDER */
+.detail-divider {
+  height: 1px;
+  background: #2c2c2c;
+  margin-bottom: 2rem;
+}
+
+/* INFO */
+.detail-info h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.detail-info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.detail-info li {
+  color: #aaa;
+  margin-bottom: 0.6rem;
+}
+
+@media (max-width: 600px) {
+  .detail-header {
+    flex-direction: column; /* Nombre arriba, badge abajo */
+    align-items: flex-start;
+    gap: 0.8rem;
+  }
+
+  .detail-card {
+    padding: 1.5rem; /* Menos aire interno */
+    border-radius: 12px;
+  }
+
+  .detail-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .back-btn {
+    font-size: 1rem;
+  }
+}

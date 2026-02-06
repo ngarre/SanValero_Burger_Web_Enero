@@ -1,0 +1,9 @@
+.nav-link {
+  text-decoration: none;
+  color: #333;
+}
+
+.nav-link.active {
+  color: #e63946;
+  border-bottom: 2px solid #e63946;
+}

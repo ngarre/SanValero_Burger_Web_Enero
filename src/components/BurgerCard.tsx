@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useNavigate } from "react-router-dom"; 
+import { useNavigate } from "react-router-dom"; // 1. Importar
 import type { Burger } from '../types/Burger';
 import PlaceholderImage from '../assets/images/placeholder-burger.jpg';
 import './BurgerCard.css';
@@ -11,7 +11,7 @@ interface Props {
 const API_URL_BASE = 'http://localhost:8080';
 
 export const BurgerCard = ({ burger }: Props) => {
-  const navigate = useNavigate(); // 
+  const navigate = useNavigate(); // 2. Inicializar navigate
   const [imageFailed, setImageFailed] = useState(false);
   const [imageUrl, setImageUrl] = useState<string>(PlaceholderImage);
 

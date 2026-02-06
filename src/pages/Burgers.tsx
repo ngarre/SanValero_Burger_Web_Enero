@@ -1,7 +1,7 @@
 import { useEffect, useState, useMemo } from "react"; // 1. Añadimos useMemo
 import { fetchAPI } from "../utils/api";
-import type { Burger } from "../types/Burger.ts";
-import { BurgerCard } from "../components/BurgerCard.tsx";
+import type { Burger } from "../types/Burger";
+import { BurgerCard } from "../components/BurgerCard";
 import FilterBar, { type FilterState } from "../components/FilterBar";
 import "./Burgers.css";
 import heroImage from "../assets/images/todos.jpg";

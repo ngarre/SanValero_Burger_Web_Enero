@@ -1,0 +1,75 @@
+.ft-card {
+  background: linear-gradient(180deg, #1e1e1e, #141414);
+  border-radius: 16px;
+  padding: 1.8rem;
+  position: relative;
+  border: 1px solid #2c2c2c;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ft-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.6);
+}
+
+.ft-card h2 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.ft-card p {
+  color: #bbb;
+  line-height: 1.5;
+  flex-grow: 1;
+  margin-bottom: 1.5rem;
+}
+
+.ft-badge {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+}
+
+.ft-badge.delivery {
+  background: #ffc107;
+  color: #000;
+}
+
+.ft-badge.local {
+  background: #555;
+  color: #fff;
+}
+
+.ft-rating {
+  color: #ffc107;
+  margin-bottom: 1rem;
+}
+
+.ft-info {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1.2rem;
+}
+
+.ft-card button {
+  background: #ffc107;
+  border: none;
+  border-radius: 999px;
+  padding: 0.7rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ft-card button:hover {
+  background: #ffb300;
+}
+
+.ft-badge {
+  pointer-events: none;
+}
