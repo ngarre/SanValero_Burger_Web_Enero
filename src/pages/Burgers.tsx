@@ -55,7 +55,7 @@ export default function Burgers() {
   if (error) return <div className="error-msg">{error}</div>;
 
   return (
-    <main className="burgers-container">
+    <main className="burgers-container main-content">
       <section className="hero">
         <h1>The burgers fighting for glory</h1>
         <img src={heroImage} alt="Hamburguesas gourmet" />
