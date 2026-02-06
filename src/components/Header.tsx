@@ -1,5 +1,5 @@
 import { Navbar } from "./Navbar";
-import logo from "../assets/images/Logo-nobackground.png";
+import logo from "../assets/images/Logo-nobackground.webp";
 import "./Header.css";
 
 export function Header() {
@@ -7,7 +7,7 @@ export function Header() {
     <header className="header">
       <div className="header-inner">
         <div className="header-left">
-          <img src={logo} alt="San Valero Burger Contest" className="logo" />
+          <img src={logo} alt="San Valero Burger Contest" loading="lazy" className="logo" />
         </div>
 
         <div className="header-center">

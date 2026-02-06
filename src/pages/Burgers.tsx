@@ -4,7 +4,7 @@ import type { Burger } from "../types/Burger";
 import { BurgerCard } from "../components/BurgerCard";
 import FilterBar, { type FilterState } from "../components/FilterBar";
 import "./Burgers.css";
-import heroImage from "../assets/images/todos.jpg";
+import heroImage from "../assets/images/todos.webp";
 
 export default function Burgers() {
   const [burgers, setBurgers] = useState<Burger[]>([]);
@@ -58,7 +58,7 @@ export default function Burgers() {
     <main className="burgers-container main-content">
       <section className="hero">
         <h1>The burgers fighting for glory</h1>
-        <img src={heroImage} alt="Hamburguesas gourmet" />
+        <img src={heroImage} alt="Hamburguesas gourmet" loading="lazy" />
         <p>These are the participating burgers. Only one will be chosen 👑</p>
       </section>
 
